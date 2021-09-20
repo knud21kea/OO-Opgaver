@@ -1,10 +1,13 @@
 public class OOOpgaver {
 
     public static void main(String[] args) {
-        Person person = new Person("Graham", 59);
+
+        //Person class with name and age attributes
+        Person person = new Person("Graham", 19);
         person.hasBirthday();
         System.out.println(person.toString());
 
+        //Dice class with face value attribute
         Dice dice = new Dice(6);
         int[] diceThrow = new int[5];
         int diceTotal = 0;
