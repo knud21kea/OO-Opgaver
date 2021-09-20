@@ -17,6 +17,8 @@ public class OOOpgaver {
             System.out.print(diceThrow[i] + " ");
             diceTotal += diceThrow[i];
         }
-        System.out.print("Total is: " + diceTotal);
+        System.out.println("Total is: " + diceTotal);
+
+        Room.main(args);
     }
 }
