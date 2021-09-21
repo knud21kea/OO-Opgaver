@@ -8,6 +8,10 @@ public class Light {
         this.lightName = lightName;
         this.isSwitchedOn = isSwitchedOn;
     }
+    public Light(String lightName) {
+        this.lightName = lightName;
+        this.isSwitchedOn = false;
+    }
 
     public void toggleSwitch() {
         isSwitchedOn = !isSwitchedOn;
