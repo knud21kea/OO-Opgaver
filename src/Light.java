@@ -8,11 +8,13 @@ public class Light {
         this.lightName = lightName;
         this.isSwitchedOn = isSwitchedOn;
     }
+    //Overload - default to switched off (false)
     public Light(String lightName) {
         this.lightName = lightName;
         this.isSwitchedOn = false;
     }
 
+    //Push switch
     public void toggleSwitch() {
         isSwitchedOn = !isSwitchedOn;
     }
@@ -21,6 +23,7 @@ public class Light {
         return isSwitchedOn;
     }
 
+    //Output state for 1 light - convert true/false to on/off
     @Override
     public String toString() {
         if (isSwitchedOn) {
