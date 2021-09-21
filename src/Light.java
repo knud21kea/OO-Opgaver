@@ -8,6 +8,7 @@ public class Light {
         this.lightName = lightName;
         this.isSwitchedOn = isSwitchedOn;
     }
+
     //Overload - default to switched off (false)
     public Light(String lightName) {
         this.lightName = lightName;
