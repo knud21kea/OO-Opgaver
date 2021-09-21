@@ -20,5 +20,8 @@ public class OOOpgaver {
         System.out.println("Total is: " + diceTotal);
 
         Room.main(args);
+
+        //Cake version 2
+
     }
 }
