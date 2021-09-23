@@ -1,10 +1,10 @@
 public class Ingredient {
 
-    private String ingredientName;
-    private double ingredientFat;
-    private double ingredientCarbohydrate;
-    private double ingredientProtein;
-    private double ingredientEnergy;
+    private final String ingredientName;
+    private final double ingredientFat;
+    private final double ingredientCarbohydrate;
+    private final double ingredientProtein;
+    private final double ingredientEnergy;
 
     public Ingredient(String ingredientName, double ingredientFat, double ingredientCarbohydrate, double ingredientProtein, double ingredientEnergy) {
         this.ingredientName = ingredientName;

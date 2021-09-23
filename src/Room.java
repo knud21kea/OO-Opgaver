@@ -24,5 +24,7 @@ public class Room {
         System.out.println(concealedLight.toString());
         moodLight.toggleSwitch();
         System.out.println(moodLight.toString());
+        System.out.println("Lights: " + Light.getCountLights());
+        System.out.println("Switches: " + moodLight.getCountSwitches());
     }
 }
